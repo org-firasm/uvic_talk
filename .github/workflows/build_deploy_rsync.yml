@@ -34,15 +34,14 @@ jobs:
       run: |
         jupyter-book build .
         
-    - name: Setup tmate session
-      env:
-        REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-        REMOTE_USER: ${{ secrets.REMOTE_USER }}
-        REMOTE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-        REMOTE_DIR: ${{ secrets.REMOTE_TARGET }}
-        LOCAL_DIR: "_build/html/"
-      uses: mxschmitt/action-tmate@v3
-      timeout-minutes: 15
+#     - name: Setup tmate session
+#       env:
+#         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+#         REMOTE_USER: ${{ secrets.REMOTE_USER }}
+#         REMOTE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+#         LOCAL_DIR: "_build/html/"
+#       uses: mxschmitt/action-tmate@v3
+#       timeout-minutes: 15
       
     # Push to server
     - name: rsync and ssh
