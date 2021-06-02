@@ -1,5 +1,5 @@
 # Book settings
-title: Physics 121 
+title: CSC 112
 author: Firas Moosvi
 logo: images/logo.jpg
 copyright: ""
@@ -11,7 +11,7 @@ latex:
 html:
   navbar_number_sections : false
   home_page_in_navbar : true
-  baseurl : "https://firas.moosvi.com/interviews/sfu_physics/"  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
+  baseurl : "https://firas.moosvi.com/interviews/uvic_cs/"  # The base URL where your book will be hosted. Used for creating image previews and social links. e.g.: https://mypage.com/mybook/
   comments:
     hypothesis: true
   extra_footer : |
@@ -25,5 +25,15 @@ sphinx:
     html_show_copyright: false
     html_extra_path: ['files']
 
-parse:
-  myst_extended_syntax: true    
+myst_enable_extensions:
+  - amsmath
+  - colon_fence
+  - deflist
+  - dollarmath
+  - html_admonition
+  - html_image
+  - linkify
+  - replacements
+  - smartquotes
+  - substitution
+  - tasklist

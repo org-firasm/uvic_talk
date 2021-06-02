@@ -1,5 +1,4 @@
 - file: about/syllabus
-  expand_sections: true
 
 - part: Part 1 - Introduction to Programming
   chapters:
