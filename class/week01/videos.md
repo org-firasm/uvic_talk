@@ -1,6 +1,10 @@
 # Videos
 
-Below are the assigned videos for this week. 
+```{tip} Note for Week 1
+There are no videos assigned for the first week, but in general you will be assigned some videos before you attend the lecture. 
+Below is a sample of what this will look like starting next week.
+```
+
 The videos are collapsible so once you're done with one, you can move to the next one.
 In the sidebar on the right, you can use the checklists to keep track of what's done.
 
@@ -8,133 +12,53 @@ In the sidebar on the right, you can use the checklists to keep track of what's 
 ```{admonition} Checklist of items
 :class: tip
 
-<input type="checkbox" id="week02_video1" class="box"><label>Video 1</input></label>
+<input type="checkbox" id="week01_video1" class="box"><label>Python I - Basic</input></label>
 
-<input type="checkbox" id="week02_video2" class="box"><label>Video 2</input></label>
+<input type="checkbox" id="week01_video2" class="box"><label>Python II - Basic </input></label>
 
-<input type="checkbox" id="week02_video3" class="box"><label>Video 3</input></label>
+<input type="checkbox" id="week01_video3" class="box"><label>Python I - Intermediate</input></label>
 
-<input type="checkbox" id="week02_video4" class="box"><label>Video 4</input></label>
-
-<input type="checkbox" id="week02_video5" class="box"><label>Video 5</input></label>
-
-<input type="checkbox" id="week02_video6" class="box"><label>Video 6</input></label>
-
-<input type="checkbox" id="week02_video7" class="box"><label>Video 7</input></label>
+<input type="checkbox" id="week01_video4" class="box"><label>Python II - Intermediate</input></label>
 
 ```
 ````
 
-## Required Videos
+## Required Videos - Beginner Track
 
-```{dropdown} 1. Charged Objects vs. Uncharged Objects
+```{dropdown} 1. Module 3, 4, 5
     :container: + shadow
-    :title: bg-primary text-white font-weight-bold
+    :title: bg-info text-white font-weight-bold
+    :open:
+
+<img src="../../images/pythonMCL.png">
+
+[Lecture Notes](https://prog-learn.mds.ubc.ca/en)
+```
+
+You should complete Module 3,4,5 before next week.
+
+## Required Videos - Intermediate or Advanced Track
+
+```{dropdown} 1. Python III
+    :container: + shadow
+    :title: bg-info text-white font-weight-bold
     :open:
 
 <div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/wHtlDOmWwQI" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/26YFLyMxXQ0" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-- Content Copyright belongs to The Physics Classroom, but is made freely available.
-- [Lesson Notes](https://www.physicsclassroom.com/getattachment/Physics-Video-Tutorial/Static-Electricity/Charged-Vs-Uncharged-Objects/Lecture-Notes/LessonNotes.pdf?lang=en-US)
+[Lecture Notes](https://firas.moosvi.com/courses/data301/notes/week05/python3.html)
 ```
 
-```{dropdown} 2. Conductors and Insulators
+```{dropdown} 2. Python IV
     :container: + shadow
-    :title: bg-primary text-white font-weight-bold
+    :title: bg-info text-white font-weight-bold
+    :open:
 
 <div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/2oIOTjq4YWA" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/J0s7mogIhQM" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-- Content Copyright belongs to The Physics Classroom, but is made freely available.
-- [Lesson Notes](https://www.physicsclassroom.com/getattachment/Physics-Video-Tutorial/Static-Electricity/Conductors-and-Insulators/Lecture-Notes/LessonNotes.pdf?lang=en-US)
+[Lecture Notes](https://firas.moosvi.com/courses/data301/notes/week05/python4.html)
 ```
-
-```{dropdown} 3. Polarization
-    :container: + shadow
-    :title: bg-primary text-white font-weight-bold
-
-<div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/-tvmUjd9tBc" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-- Content Copyright belongs to The Physics Classroom, but is made freely available.
-- [Lesson Notes](https://www.physicsclassroom.com/getattachment/Physics-Video-Tutorial/Static-Electricity/Polarization/Lecture-Notes/LessonNotes.pdf?lang=en-US)
-```
-
-```{dropdown} 4. Coulomb's Law
-    :container: + shadow
-    :title: bg-primary text-white font-weight-bold
-
-<div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/G11OJMnMlTE" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-- Content Copyright belongs to The Physics Classroom, but is made freely available.
-- [Lesson Notes](https://www.physicsclassroom.com/getattachment/Physics-Video-Tutorial/Static-Electricity/Coulombs-Law/Lecture-Notes/LessonNotes.pdf?lang=en-US)
-```
-
-## Optional Videos
-
-```{dropdown} 5. Charge Interactions
-    :container: + shadow
-    :title: bg-success text-white font-weight-bold
-
-<div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/0V-a4UBPL40" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-- Content Copyright belongs to The Physics Classroom, but is made freely available.
-- [Lesson Notes](https://www.physicsclassroom.com/getattachment/Physics-Video-Tutorial/Static-Electricity/Charge-Interactions/Lecture-Notes/LessonNotes.pdf?lang=en-US)
-```
-
-```{dropdown} 6. Charged vs. Uncharged Objects
-    :container: + shadow
-    :title: bg-success text-white font-weight-bold
-
-<div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/wHtlDOmWwQI" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-- Content Copyright belongs to The Physics Classroom, but is made freely available.
-- [Notes](https://www.physicsclassroom.com/getattachment/Physics-Video-Tutorial/Static-Electricity/Charged-Vs-Uncharged-Objects/Lecture-Notes/LessonNotes.pdf?lang=en-US)
-```
-
-```{dropdown} 7. Charging by Induction
-    :container: + shadow
-    :title: bg-success text-white font-weight-bold
-    
-<div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/763tiBXvTGw" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-- Content Copyright belongs to The Physics Classroom, but is made freely available.
-- [Lesson Notes](https://www.physicsclassroom.com/getattachment/Physics-Video-Tutorial/Static-Electricity/Charging-by-Induction/Lecture-Notes/LessonNotes.pdf?lang=en-US)
-```
-
-```{dropdown} 8. Charging by Conduction
-    :container: + shadow
-    :title: bg-success text-white font-weight-bold
-
-<div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/pwgkXfCcv48" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-- Content Copyright belongs to The Physics Classroom, but is made freely available.
-- [Lesson Notes](https://www.physicsclassroom.com/getattachment/Physics-Video-Tutorial/Static-Electricity/Charging-by-Conduction/Lecture-Notes/LessonNotes.pdf?lang=en-US)
-```
-
-```{dropdown} 9. Grounding
-    :container: + shadow
-    :title: bg-success text-white font-weight-bold
-
-<div class="container youtube">
-<iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/3lnJZPsVGBc" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-- Content Copyright belongs to The Physics Classroom, but is made freely available.
-- [Lesson Notes](https://www.physicsclassroom.com/getattachment/Physics-Video-Tutorial/Static-Electricity/Grounding/Lecture-Notes/LessonNotes.pdf?lang=en-US)
-```
-

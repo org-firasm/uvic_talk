@@ -1,10 +1,30 @@
-(page_topic2)=
-Week 2 Summary
+(page_topic1)=
+Week 1 Introduction
 =======================
 
-## How this course is organized
+Hello students!  Welcome to Week 1 - this week will be talk about logistics and set up our machines for this course.
 
-Hello students! Welcome to Week 2 - this week we will begin the physics part of our class!
+<label><input type="checkbox" id="week01_task1" class="box"> Attend the lecture on Thursday </input></label>
+
+This week we will be doing course introductions, I will be showing you how to navigate the course website, and how the course is set up. In terms of content, there won't much real content, just dealing with course administrative stuff.
+
+<label><input type="checkbox" id="week01_task2" class="box"> Attend the **[lab](./lab.md)** this week</input></label>
+
+```{tip}
+The lab is for installing and setting up all the software you need for the course.
+The TA are there to help you install the programs for this course. I strongly encourage you to use them as resources. 
+This lab is marked so the TA can ensure you have all you need for this class. 
+TAs are also available at different office hours during the week if you did not finish the installation or are having difficulties with installation beyond the 2 hours lab.
+```
+
+## List of things to finish this week
+
+<label><input type="checkbox" id="week01_task3" class="box"> Watch the **[introductory videos](./videos.md)**</input></label>
+
+```{tip}
+Some of you might already know this content, but for the others, it gives you some background as to what is data, how it is represented on a computer, and why command line might be useful in this course. Take the time to quickly review the slides before watching the videos if you need a refresher or never learned this.
+```
+## How this course is organized
 
 <div class="container youtube">
 <iframe class="responsive-iframe" src="https://www.youtube.com/embed/_G7FybZQ5zE" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -21,23 +41,3 @@ Hello students! Welcome to Week 2 - this week we will begin the physics part of 
 <div class="container youtube">
 <iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/PPc8nY6Tcns" frameborder="0" allow="accelerometer; autoplay="0"; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
-## List of things to do this week
-
-Below is a list of things you need to do this week, links to where you can do them, as well as roughly the order you should do it.
-Note that these are just SUGGESTIONS and you are by no means required to them this way. 
-I have put the labs at the end, but if your lab section is earlier in the week, you may want to shift things around.
-
-<label><input type="checkbox" id="week02_task1" class="box"> [**Read/skim the assigned textbook chapter**](./readings.md)</input></label>
-
-<label><input type="checkbox" id="week02_task2" class="box"> [**Watch the pre-lecture videos**](./videos.md) </input></label>
-
-<label><input type="checkbox" id="week02_task2b" class="box"> [**Participate in the lecture**](./lecture.md) </input></label>
-
-<label><input type="checkbox" id="week02_task3" class="box"> [**Complete the MasteringPhysics homework**](./homework.md) </input></label>
-
-<label><input type="checkbox" id="week02_task4" class="box"> [**Write the test (60 mins)**](./test.md) </input></label>
-
-<label><input type="checkbox" id="week02_task5" class="box"> [**Complete the lab**](./lab.md) </input></label>
-
-<label><input type="checkbox" id="week02_task6" class="box"> [**Complete your Learning Log assignment**](./learninglogs.md) </input></label>

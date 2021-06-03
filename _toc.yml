@@ -3,7 +3,7 @@
 - part: Part 1 - Introduction to Programming
   chapters:
     - file: class/week01/week01_summary
-      title: Lecture 1 - Programming!
+      title: Week 1!
       sections:
         - file: class/week01/videos
         - file: class/week01/Lecture
