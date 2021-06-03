@@ -59,17 +59,22 @@ div.prompt_container {
 .vspace {
     margin-top:50px;
 }
-
+/* 
 div.cell.code_cell.rendered.selected, {
     border-width:10px;
     border-style:solid;
     border-color:red;    
+} */
+
+
+/* Removes the border of cells */
+
+div.cell {
+    border-width:0px;
 }
 
-div.cell, div.code_cell, div.text_cell, div.cell.rendered, div.code_cell.selected, div.code_cell.rendered, {
-    border-width:10px;
-    border-style:none;
-    border-color:red;
-}
-/* cell code_cell rendered selected */
+/* Increases the thickness of the blue and green (whether or not the cell is selected */
 
+div.cell.selected:before; .edit_mode div.cell.selected:before {
+    width: 20px;
+}

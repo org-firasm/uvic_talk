@@ -6,7 +6,7 @@
       title: Lecture 1 - Programming!
       sections:
         - file: class/week01/videos
-        - file: class/week01/lecture
+        - file: class/week01/Lecture
         # - file: class/week01/readings
         # - file: class/week01/homework
         # - file: class/week01/test
