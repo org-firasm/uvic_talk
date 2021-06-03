@@ -39,7 +39,6 @@ jobs:
 #         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
 #         REMOTE_USER: ${{ secrets.REMOTE_USER }}
 #         REMOTE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-#         REMOTE_DIR: ${{ secrets.REMOTE_TARGET }}
 #         LOCAL_DIR: "_build/html/"
 #       uses: mxschmitt/action-tmate@v3
 #       timeout-minutes: 15
@@ -50,7 +49,6 @@ jobs:
         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
         REMOTE_USER: ${{ secrets.REMOTE_USER }}
         REMOTE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-        REMOTE_DIR: ${{ secrets.REMOTE_TARGET }}
         LOCAL_DIR: "_build/html/"
       run: |
         mkdir ~/.ssh
@@ -58,7 +56,5 @@ jobs:
         echo "$REMOTE_KEY" > ~/.ssh/id_rsa
         ssh-keyscan -H $REMOTE_HOST >> ~/.ssh/known_hosts
         chmod 600 ~/.ssh/id_rsa
-        pwd
-        ls -la
-        rsync -avzr --delete _build/html/ $REMOTE_USER@$REMOTE_HOST:firas.moosvi.com/interviews/uvic_cs
+        rsync -avzr --delete $LOCAL_DIR $REMOTE_USER@$REMOTE_HOST:firas.moosvi.com/interviews/uvic_cs
         
